@@ -359,7 +359,7 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.43394044763!2d29
                   <MapPin className="h-6 w-6 text-[#e9b84f] mr-2 mt-1" />
                   <div>
                     <h4 className="font-bold text-[#1a2f5e]">العنوان</h4>
-                    <p className="text-gray-600">جامعة الإسكندرية، الشاطبي، الإسكندرية، مصر</p>
+                    <p className="text-gray-600">القاعة الزرقاء بكلية التمريض بجامعة الإسكندرية</p>
                   </div>
                 </div>
                 <div className="flex items-start">
