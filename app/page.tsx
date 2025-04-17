@@ -340,14 +340,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="h-[400px] rounded-lg overflow-hidden shadow-xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.5233424678!2d29.9118!3d31.2088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c38a0562fe85%3A0xa34cc632ec23e7!2sAlexandria%20University!5e0!3m2!1sen!2seg!4v1650000000000!5m2!1sen!2seg"
-                width="100%"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.43394044763!2d29.9455566!3d31.208705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c499876f072d%3A0xd6276e4d4a94d1c1!2z2YPZhNmK2Kkg2KfZhNiq2YXYsdmK2LYg2KzYp9mF2LnYqSDYp9mE2KXYs9mD2YbYr9ix2YrYqQ!5e0!3m2!1sar!2seg!4v1744916991008!5m2!1sar!2seg"                width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              
             </div>
             <div>
               <h3 className="text-2xl font-bold text-[#1a2f5e] mb-4">القاعة الزرقاء - كلية التمريض</h3>
