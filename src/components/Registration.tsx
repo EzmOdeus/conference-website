@@ -182,7 +182,7 @@ const Registration: React.FC = () => {
                     </svg>
                     <div>
                       <span className="block font-medium">التاريخ</span>
-                      <span className="text-purple-200">أبريل 2025</span>
+                      <span className="text-purple-200">22-23 أبريل 2025</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

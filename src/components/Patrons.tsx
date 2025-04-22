@@ -36,21 +36,21 @@ const Patrons: React.FC = () => {
       name: "الأستاذ الدكتور / نجدة إبراهيم ماضي",
       title: "عميد كلية التربية النوعية",
       role: "رئيس عام المؤتمر",
-      image: "/WhatsApp_Image_2023-06-02_at_9.39.02_PM.jpg",
+      image: "/WhatsApp Image 2025-04-19 at 5.00.10 PM.jpeg",
     },
     {
       id: 5,
       name: "الأستاذ الدكتور / جيهان فاروق أبو الخير",
       title: "وكيل الكلية لشئون التعليم والطلاب",
       role: "نائب رئيس عام المؤتمر",
-      image: "/images.jfif",
+      image: "/WhatsApp Image 2025-04-21 at 8.03.14 PM.jpeg",
     },
     {
       id: 6,
       name: "الدكتور / أميرة يحيى زيتون",
       title: "الأستاذ المساعد بقسم العلوم التربوية والنفسية",
       role: "أمين المؤتمر",
-      image: "/citations.jfif",
+      image: "/WhatsApp Image 2025-04-21 at 8.05.28 PM.jpeg",
     },
   ];
 
