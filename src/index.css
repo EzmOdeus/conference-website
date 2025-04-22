@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --conference-purple: #2d1b69;
+  --conference-magenta: #6d1f51;
+  --conference-cyan: #53c1d9;
+  --conference-yellow: #ffc72b;
+  --conference-red: #e6322f;
+  --conference-green: #1fb58f;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold relative inline-block mb-10 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-3/4 after:h-1 after:bg-yellow-400 pb-2;
+  }
+  
+  .nav-link {
+    @apply px-4 py-2 rounded-lg transition-all hover:bg-purple-800/50;
+  }
+  
+  .patron-card {
+    @apply bg-indigo-900/50 backdrop-blur-sm p-6 rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl hover:bg-indigo-900/80 border border-indigo-800;
+  }
+  
+  .topic-card {
+    @apply bg-purple-900/50 backdrop-blur-sm p-6 rounded-xl mb-4 shadow-lg border border-purple-800 hover:bg-purple-900/80 transition-all duration-300;
+  }
+  
+  .goal-card {
+    @apply bg-indigo-900/50 backdrop-blur-sm p-6 rounded-xl mb-4 shadow-lg border border-indigo-800 hover:bg-indigo-800/80 transition-all duration-300;
+  }
+  
+  .pentagon-bg {
+    @apply after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-br after:from-purple-900/20 after:to-indigo-900/20 after:backdrop-blur-sm after:-z-10;
+  }
+}
+
+.arabic {
+  direction: rtl;
+}
+
+.english {
+  direction: ltr;
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.pentagon {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.diagonal-pattern {
+  background-image: linear-gradient(45deg, rgba(79, 70, 229, 0.15) 25%, transparent 25%),
+                    linear-gradient(-45deg, rgba(79, 70, 229, 0.15) 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, rgba(79, 70, 229, 0.15) 75%),
+                    linear-gradient(-45deg, transparent 75%, rgba(79, 70, 229, 0.15) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
