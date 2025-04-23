@@ -82,6 +82,56 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="container justify-center items-center mx-auto px-4 py-10">
+        <div className="grid grid-cols-1 justify-center items-center py-3 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className=" relative">
+              <img
+                src="/WhatsApp Image 2025-04-23 at 11.24.37 AM.jpeg"
+                alt="bannner"
+                className="object-contain"
+              />
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className=" relative">
+              <img
+                src="/WhatsApp Image 2025-04-23 at 11.25.52 AM (1).jpeg"
+                alt="bannner"
+                className="object-contain"
+              />
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className=" relative">
+              <img
+                src="/WhatsApp Image 2025-04-23 at 11.25.51 AM.jpeg"
+                alt="bannner"
+                className="object-contain"
+              />
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className=" relative">
+              <img
+                src="/WhatsApp Image 2025-04-23 at 11.25.46 AM.jpeg"
+                alt="bannner"
+                className="object-contain"
+              />
+            </div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className=" relative">
+              <img
+                src="/WhatsApp Image 2025-04-23 at 11.25.46 AM (1).jpeg"
+                alt="bannner"
+                className="object-contain"
+              />
+            </div>
+          </div>
+         
+        </div>
+      </div>
       <Registration />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="h-[400px] rounded-lg overflow-hidden shadow-xl">
